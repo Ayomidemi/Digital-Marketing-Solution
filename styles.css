@@ -9,7 +9,7 @@
     --color-gray: #e3eef8;
     --light-grey: #ccc;
     --dark-grey: #222831;
-    --pink: #e9204f;
+    --pink: #fca572;
 }
 * {
     margin: 0;
@@ -129,7 +129,7 @@ nav .logo {
  padding: 0;
 }
 #intro .container {
-    background: url(./images/pro\ 1.jpg) no-repeat;
+    background: url(./images/pro_2-removebg-preview.png) no-repeat;
     background-position-x: 70%;
 }
 .line {
@@ -150,7 +150,7 @@ nav .logo {
     padding: 8rem 0;
 }
 .intro-text h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 8rem;
