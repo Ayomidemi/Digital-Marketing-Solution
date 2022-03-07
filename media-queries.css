@@ -11,10 +11,10 @@
     .nav-ul li {
         width: 100%;
         text-align: center;
-        border-top: 1px solid rgba(255, 255, 255, 0.4);
+        border-top: 1px solid var(--pink);
     }
     .nav-ul li:last-child {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+        border-bottom: 1px solid var(--pink);
     }
     .nav-link::before,
     .current::before {
@@ -29,11 +29,27 @@
     .nav-ul .close {
         display: block;
     }
+    .about {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2rem;
+    }
+    .image {
+        width: 100%;
+    }
+    .image1 {
+        grid-row: 1;
+        grid-column: 1;
+    }
     .show {
         display: flex;
     }
     .hide {
         display: none;
+    }
+    .container {
+        padding-right: 0;
+        margin-right: 0;
+        overflow: hidden;
     }
     .contact {
     flex-direction: column;
@@ -42,4 +58,15 @@
 .contact > * {
     margin: 3rem 0;
 }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        padding-right: 0;
+        margin-right: 0;
+        overflow: hidden;
+    }
+    .about-text h3 {
+       font-size: 13px;
+    }
 }

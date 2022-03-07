@@ -5,11 +5,11 @@
     --blue: #375dc4;
     --light-blue: #258aff;
     --color-primary: #9d0191;
-    --color-sec: #db6400;
+    --color-sec: #ff0000;
     --color-gray: #e3eef8;
     --light-grey: #ccc;
     --dark-grey: #222831;
-    --pink: #fca572;
+    --pink: #ff9999;
 }
 * {
     margin: 0;
@@ -129,7 +129,7 @@ nav .logo {
  padding: 0;
 }
 #intro .container {
-    background: url(./images/pro_2-removebg-preview.png) no-repeat;
+    background: url(./images/pro2.png) no-repeat;
     background-position-x: 70%;
 }
 .line {
